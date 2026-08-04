@@ -105,7 +105,7 @@ export default function Features() {
         {/* section header */}
         <div className="features-heading mb-12 flex items-center gap-4">
           <h2 className="text-2xl font-extrabold text-white sm:text-3xl">
-            چرا سازه‌گستر پارس؟
+            چرا متال بتن؟
           </h2>
           <span className="h-[3px] w-16 rounded bg-gold-500" />
         </div>

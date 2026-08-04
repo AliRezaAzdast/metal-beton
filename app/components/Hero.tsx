@@ -44,8 +44,8 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-[1500px] px-6 pb-16 pt-16 lg:px-10 lg:pb-20 lg:pt-20">
-        <div className="flex justify-between items-center">
-          <div>
+        <div className="flex justify-between items-center md:flex-row flex-col">
+          <div className="mb-20">
             <h1 className="text-4xl font-extrabold leading-[1.35] text-white sm:text-5xl">
               <span className="hero-title-line block">تیرچه و خرپا صنعتی</span>
               <span className="hero-title-line mt-2 block text-gold-500">

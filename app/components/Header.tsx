@@ -14,17 +14,8 @@ export default function Header() {
       <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-6 px-6 py-5 lg:px-10">
         {/* logo */}
         <a href="#" className="flex shrink-0 items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-gradient-to-br from-gold-400 to-gold-600">
-            <svg viewBox="0 0 24 24" className="h-6 w-6 text-navy-900" fill="none">
-              <path
-                d="M4 20V9l5-3 5 3v11M14 20v-6l6-3v9"
-                stroke="currentColor"
-                strokeWidth="1.8"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-              <path d="M4 20h16" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-            </svg>
+          <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-white">
+           <img src="/logo.webp" alt="" />
           </span>
           <span className="leading-tight">
             <span className="block text-lg font-bold text-white">متال بتن</span>

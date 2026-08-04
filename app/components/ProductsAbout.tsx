@@ -82,7 +82,7 @@ export default function ProductsAbout() {
                     <span className="h-px w-6 bg-gold-500" />
                     درباره ما
                   </div>
-                  <h3 className="text-2xl font-extrabold text-white">سازه‌گستر پارس</h3>
+                  <h3 className="text-2xl font-extrabold text-white">متال بتن</h3>
                   <p className="mt-4 text-sm leading-8 text-ink-300">
                     با سال‌ها تجربه در زمینه تولید تیرچه و خرپا صنعتی، به عنوان
                     یکی از پیشگامان این صنعت، همواره در تلاشیم تا با ارائه
