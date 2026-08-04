@@ -178,8 +178,21 @@ export default function Footer() {
         </div>
 
         {/* copyright */}
+        <div className="flex justify-between items-center">
         <div className="mt-12 border-t border-white/5 pt-6 text-center text-xs text-ink-300">
           © {new Date().getFullYear()} متال بتن. تمامی حقوق محفوظ است.
+        </div>
+        <a
+              href="https://arazcode.com"
+              className="hover:text-gray-500 mt-12 pt-6 flex items-center justify-center gap-2 transition-colors duration-500"
+            >
+              <img
+                src="/us/arazcode.svg"
+                alt=""
+                className="p-1 w-10 h-10 bg-white rounded-full"
+              />
+              ساخت توسعه توسط آرازکد
+            </a>
         </div>
       </div>
     </footer>
