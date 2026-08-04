@@ -99,8 +99,8 @@ export default function Footer() {
           {/* logo / about */}
           <div className="sm:col-span-2 lg:col-span-1">
             <a href="#" className="flex items-center gap-3">
-              <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-white">
-                <img src="/logo.webp" alt="" />
+              <span className="flex h-11 w-11 items-center justify-center rounded-lg">
+                <img src="/logo.svg" alt="" />
               </span>
               <span className="leading-tight">
                 <span className="block text-lg font-bold text-white">

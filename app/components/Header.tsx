@@ -14,8 +14,8 @@ export default function Header() {
       <div className="mx-auto flex max-w-[1500px] items-center justify-between gap-6 px-6 py-5 lg:px-10">
         {/* logo */}
         <a href="#" className="flex shrink-0 items-center gap-3">
-          <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-white">
-           <img src="/logo.webp" alt="" />
+          <span className="flex h-11 w-11 items-center justify-center rounded-lg">
+           <img src="/logo.svg" alt="" />
           </span>
           <span className="leading-tight">
             <span className="block text-lg font-bold text-white">متال بتن</span>
