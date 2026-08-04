@@ -1,7 +1,5 @@
-// No "use client" needed – this is a pure presentational component
-import { IconPhone } from "../icons"; // reuse the phone icon you already have
 
-// ---------- simple social SVGs (in‑file, no extra dependencies) ----------
+
 function IconLocation() {
   return (
     <svg
@@ -15,6 +13,22 @@ function IconLocation() {
     >
       <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
       <circle cx="12" cy="9" r="2.5" />
+    </svg>
+  );
+}
+
+function IconPhone() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.8"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="h-5 w-5"
+    >
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
     </svg>
   );
 }
@@ -144,9 +158,7 @@ export default function Footer() {
                 <span className="mt-0.5 shrink-0 text-gold-500">
                   <IconLocation />
                 </span>
-                <span>
-                  تهران، خیابان ولیعصر، بالاتر از میدان ونک، پلاک ۱۲۳۴
-                </span>
+                <span>تبریز،شبستر</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-ink-200">
                 <span className="shrink-0 text-gold-500">
@@ -179,20 +191,20 @@ export default function Footer() {
 
         {/* copyright */}
         <div className="flex justify-between items-center">
-        <div className="mt-12 border-t border-white/5 pt-6 text-center text-xs text-ink-300">
-          © {new Date().getFullYear()} متال بتن. تمامی حقوق محفوظ است.
-        </div>
-        <a
-              href="https://arazcode.com"
-              className="hover:text-gray-500 mt-12 pt-6 flex items-center justify-center gap-2 transition-colors duration-500"
-            >
-              <img
-                src="/us/arazcode.svg"
-                alt=""
-                className="p-1 w-10 h-10 bg-white rounded-full"
-              />
-              ساخت توسعه توسط آرازکد
-            </a>
+          <div className="mt-12 border-t border-white/5 pt-6 text-center text-xs text-ink-300">
+            © {new Date().getFullYear()} متال بتن. تمامی حقوق محفوظ است.
+          </div>
+          <a
+            href="https://arazcode.com"
+            className="hover:text-gray-500 mt-12 pt-6 flex items-center justify-center gap-2 transition-colors duration-500"
+          >
+            <img
+              src="/us/arazcode.svg"
+              alt=""
+              className="p-1 w-10 h-10 bg-white rounded-full"
+            />
+            ساخت توسعه توسط آرازکد
+          </a>
         </div>
       </div>
     </footer>
