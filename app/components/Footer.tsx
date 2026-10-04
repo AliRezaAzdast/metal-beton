@@ -107,7 +107,7 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/5 bg-navy-950">
+    <footer id="footer" className="border-t border-white/5 bg-navy-950">
       <div className="mx-auto max-w-[1500px] px-6 py-16 lg:px-10">
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* logo / about */}

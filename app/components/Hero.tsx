@@ -44,8 +44,8 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto max-w-[1500px] px-6 pb-16 pt-16 lg:px-10 lg:pb-20 lg:pt-20">
-        <div className="flex justify-between items-center md:flex-row flex-col">
-          <div className="mb-20">
+        <div className="flex flex-col items-center justify-between gap-10 md:flex-row md:gap-8 lg:gap-12">
+          <div className="mb-6 md:mb-20">
             <h1 className="text-4xl font-extrabold leading-[1.35] text-white sm:text-5xl">
               <span className="hero-title-line block">تیرچه و خرپا صنعتی</span>
               <span className="hero-title-line mt-2 block text-gold-500">
@@ -67,8 +67,15 @@ export default function Hero() {
                 مشاهده محصولات
               </a>
               <a
-                href="#quote"
-                className="hero-cta flex items-center gap-2 rounded-md bg-gold-500 px-6 py-3.5 text-sm font-bold text-navy-950 transition hover:bg-gold-400"
+                href="tel:+989144148621"
+                className="md:hidden hero-cta flex items-center gap-2 rounded-md bg-gold-500 px-6 py-3.5 text-sm font-bold text-navy-950 transition hover:bg-gold-400"
+              >
+                دریافت مشاوره رایگان
+                <IconPhone className="h-4 w-4" />
+              </a>
+              <a
+                href="#footer"
+                className="hidden md:flex hero-cta items-center gap-2 rounded-md bg-gold-500 px-6 py-3.5 text-sm font-bold text-navy-950 transition hover:bg-gold-400"
               >
                 دریافت مشاوره رایگان
                 <IconPhone className="h-4 w-4" />
@@ -76,8 +83,17 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="w-200 ">
-            <img src="/hero.webp" alt="hero" className="rounded-3xl"/>
+          <div className="w-full md:w-1/2 lg:max-w-[720px]">
+            <img
+              src="/hero.webp"
+              alt="تیرچه و خرپا صنعتی"
+              width={1677}
+              height={936}
+              loading="eager"
+              decoding="async"
+              fetchPriority="high"
+              className="aspect-[16/11] w-full rounded-3xl object-cover shadow-[0_20px_60px_-20px_rgba(0,0,0,0.65)] md:aspect-[1677/936]"
+            />
           </div>
         </div>
 

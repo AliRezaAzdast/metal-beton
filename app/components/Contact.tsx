@@ -121,17 +121,47 @@ export default function Contact() {
               </span>
               <div>
                 <h3 className="text-sm font-bold text-white">تلفن تماس</h3>
-                <p className="mt-1.5 text-sm leading-7 text-ink-300" dir="ltr">
-                  ۰۴۱۴۲۵۲۷۳۷۷
+                <p className="mt-1.5 text-sm leading-7 text-ink-300">
+                  <a
+                    href="tel:04142527377"
+                    className="font-bold text-gold-500 transition-colors hover:text-gold-400"
+                  >
+                    <span dir="ltr">۰۴۱۴۲۵۲۷۳۷۷</span>
+                  </a>
+                  <span className="mx-2">-</span>
+                  <a
+                    href="tel:09144188092"
+                    className="font-bold text-gold-500 transition-colors hover:text-gold-400"
+                  >
+                    <span dir="ltr">۰۹۱۴۱۸۸۰۹۲</span>
+                  </a>
                 </p>
-                <p className="text-sm leading-7 text-ink-300" dir="ltr">
-                  ۰۹۱۴۴۱۳۶۵۸۷
+                <p className="text-sm leading-7 text-ink-300">
+                  بهروز امیری زین آباد -{" "}
+                  <a
+                    href="tel:09144148621"
+                    className="font-bold text-gold-500 transition-colors hover:text-gold-400"
+                  >
+                    <span dir="ltr">۰۹۱۴۴۱۸۶۲۱</span>
+                  </a>
+                </p>
+                <p className="text-sm leading-7 text-ink-300">
+                  صمد امیری زین آباد -{" "}
+                  <a
+                    href="tel:09144136587"
+                    className="font-bold text-gold-500 transition-colors hover:text-gold-400"
+                  >
+                    <span dir="ltr">۰۹۱۴۴۱۳۶۵۸۷</span>
+                  </a>
+                </p>
+                <p className="mt-1 text-sm leading-7 text-gold-500">
+                  قسمت فروش و استعلام قیمت
                 </p>
               </div>
             </div>
 
             {/* email */}
-            <div className="contact-card group flex items-start gap-4 rounded-xl border border-white/10 bg-navy-850 p-6 transition duration-300 hover:-translate-y-1 hover:border-gold-500/40">
+            {/* <div className="contact-card group flex items-start gap-4 rounded-xl border border-white/10 bg-navy-850 p-6 transition duration-300 hover:-translate-y-1 hover:border-gold-500/40">
               <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-gold-500/10 text-gold-500">
                 <IconMail />
               </span>
@@ -141,7 +171,7 @@ export default function Contact() {
                   info@sazegostar.com
                 </p>
               </div>
-            </div>
+            </div> */}
 
             {/* working hours */}
             <div className="contact-card group flex items-start gap-4 rounded-xl border border-white/10 bg-navy-850 p-6 transition duration-300 hover:-translate-y-1 hover:border-gold-500/40">

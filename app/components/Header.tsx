@@ -48,8 +48,15 @@ export default function Header() {
             <span dir="ltr">۰۹۱۴۴۱۳۶۵۸۷</span>
           </a>
           <a
-            href="#quote"
-            className="flex items-center gap-2 rounded-md bg-gold-500 px-5 py-2.5 text-sm font-bold text-navy-950 transition hover:bg-gold-400"
+            href="tel:+989144148621"
+            className="md:hidden flex items-center gap-2 rounded-md bg-gold-500 px-5 py-2.5 text-sm font-bold text-navy-950 transition hover:bg-gold-400"
+          >
+            <IconChevronLeft className="h-4 w-4" />
+            درخواست قیمت
+          </a>
+          <a
+            href="#footer"
+            className="hidden md:flex items-center gap-2 rounded-md bg-gold-500 px-5 py-2.5 text-sm font-bold text-navy-950 transition hover:bg-gold-400"
           >
             <IconChevronLeft className="h-4 w-4" />
             درخواست قیمت
