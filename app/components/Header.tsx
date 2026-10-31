@@ -3,7 +3,6 @@ import { IconChevronLeft, IconPhone } from "../icons";
 const navItems = [
   { label: "صفحه اصلی", href: "#", active: true },
   { label: "محصولات", href: "#products" },
-  { label: "مزایا", href: "#features" },
   { label: "پروژه‌ ما", href: "#" },
   { label: "تماس با ما", href: "#" },
 ];

@@ -60,13 +60,7 @@ export default function ProductsAbout() {
                   <div className="p-5">
                     <h3 className="text-[15px] font-bold text-white">{title}</h3>
                     <p className="mt-2 text-xs leading-6 text-ink-300">{desc}</p>
-                    <a
-                      href="#"
-                      className="mt-4 inline-flex items-center gap-1.5 text-xs font-bold text-gold-500 transition group-hover:gap-2.5"
-                    >
-                      مشاهده جزئیات
-                      <IconArrowLeft className="h-3.5 w-3.5 rotate-180" />
-                    </a>
+                 
                   </div>
                 </div>
               ))}
@@ -89,13 +83,7 @@ export default function ProductsAbout() {
                     محصولات باکیفیت، در ساخت سازه‌های مقاوم و ایمن، همراه شما
                     باشیم.
                   </p>
-                  <a
-                    href="#"
-                    className="mt-7 inline-flex items-center gap-2 rounded-md border border-white/20 px-5 py-3 text-xs font-bold text-white transition hover:bg-white/10"
-                  >
-                    <IconChevronLeft className="h-4 w-4" />
-                    بیشتر درباره ما
-                  </a>
+                  
                 </div>
                 <div className="relative min-h-[220px] md:min-h-full">
                   {/* <BuildingArt className="absolute inset-0 h-full w-full object-cover" /> */}
