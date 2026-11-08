@@ -87,7 +87,13 @@ export default function ProductsAbout() {
                 </div>
                 <div className="relative min-h-[220px] md:min-h-full">
                   {/* <BuildingArt className="absolute inset-0 h-full w-full object-cover" /> */}
-                  <img src="/about.webp" alt="about" />
+                  <img
+                    src="/about.webp"
+                    alt="کارخانه تولید تیرچه و خرپا صنعتی متال بتن"
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-cover"
+                  />
                 </div>
               </div>
 

@@ -14,11 +14,11 @@ export default function Header() {
         {/* logo */}
         <a href="#" className="flex shrink-0 items-center gap-3">
           <span className="flex h-11 w-11 items-center justify-center rounded-lg">
-           <img src="/logo.svg" alt="" />
+            <img src="/logo.svg" alt="لوگوی متال بتن - تولید تیرچه و خرپا صنعتی" width={44} height={44} />
           </span>
           <span className="leading-tight">
             <span className="block text-lg font-bold text-white">متال بتن</span>
-            <span className="block text-[11px] text-ink-300">تولید کننده و خریا تیرچه و خرپا صنعتی</span>
+            <span className="block text-[11px] text-ink-300">تولید کننده تیرچه و خرپا صنعتی</span>
           </span>
         </a>
 
@@ -42,7 +42,7 @@ export default function Header() {
 
         {/* actions */}
         <div className="flex shrink-0 items-center gap-5">
-          <a href="tel:02191005555" className="hidden items-center gap-2 text-sm text-ink-200 hover:text-white sm:flex">
+          <a href="tel:09144136587" className="hidden items-center gap-2 text-sm text-ink-200 hover:text-white sm:flex">
             <IconPhone className="h-4 w-4 text-gold-500" />
             <span dir="ltr">۰۹۱۴۴۱۳۶۵۸۷</span>
           </a>

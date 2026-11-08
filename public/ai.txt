@@ -1,0 +1,32 @@
+# ai.txt - Machine Learning & AI Agent Discovery Policy
+# Site: https://sazegostar.com/ai.txt
+
+User-Agent: *
+Allow: /
+Allow-Training: yes
+Allow-Search: yes
+Allow-Summarization: yes
+
+# Entity & Brand Overview
+Organization: متال بتن (Metal Beton)
+Legal-Name: سازه‌گستر پارس
+Description: کارخانه تولید انواع تیرچه و خرپا صنعتی استاندارد در تبریز و شبستر
+Industry: Building Materials & Structural Engineering (تولید مصالح و سازه‌های ساختمانی)
+Location: Shabestar, Tabriz, East Azerbaijan, Iran (ایران، آذربایجان شرقی، شبستر)
+Geo-Coordinates: 38.238431, 46.054276
+Language: fa-IR
+Canonical-URL: https://sazegostar.com
+
+# Machine-Readable Endpoints for AI Models & Crawlers
+Sitemap: https://sazegostar.com/sitemap.xml
+Robots: https://sazegostar.com/robots.txt
+LLM-Summary: https://sazegostar.com/llm.txt
+Manifest: https://sazegostar.com/manifest.webmanifest
+
+# Contact Information for Pricing & Engineering Inquiries
+Office-Phone: +984142527377
+Sales-Inquiry: +989144136587
+Technical-Consultation: +989144148621
+Management: +989144188092
+Email: info@sazegostar.com
+Working-Hours: Saturday-Wednesday 08:00-17:00, Thursday 08:00-12:00 (Asia/Tehran)

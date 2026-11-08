@@ -114,7 +114,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <a href="#" className="flex items-center gap-3">
               <span className="flex h-11 w-11 items-center justify-center rounded-lg">
-                <img src="/logo.svg" alt="" />
+                <img src="/logo.svg" alt="لوگوی متال بتن" width={44} height={44} />
               </span>
               <span className="leading-tight">
                 <span className="block text-lg font-bold text-white">
@@ -200,8 +200,10 @@ export default function Footer() {
           >
             <img
               src="/us/arazcode.svg"
-              alt=""
+              alt="طراحی و توسعه آرازکد"
               className="p-1 w-10 h-10 bg-white rounded-full"
+              width={40}
+              height={40}
             />
             ساخت توسعه توسط آرازکد
           </a>
